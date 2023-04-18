@@ -3,6 +3,7 @@ import { FacebookFill, InstagramFill, LinkedinFill, YoutubeFill, TiktokFill } fr
 import React from 'react';
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <React.Fragment>
       <footer className="home-footer">
@@ -64,7 +65,7 @@ function Footer() {
 
           <hr />
 
-          <p className="footer-copyright text-center text-white-50 mt-3">Copyright &copy; 2023 Onlenkan Studio. All right reserved.</p>
+          <p className="footer-copyright text-center text-white-50 mt-3">Copyright &copy; {year} Onlenkan Studio. All right reserved.</p>
         </div>
       </footer>
     </React.Fragment>

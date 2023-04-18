@@ -39,7 +39,7 @@ function Login() {
                     Login
                   </button>
                   <p className="text-secondary text-center mt-2 mb-3">
-                    Belum Memiliki Akun? <a href="">Daftar!</a>
+                    Belum Memiliki Akun? <Link to="/register">Daftar!</Link>
                   </p>
                   <p className="text-secondary text-center fs-7">
                     Lupa Password?

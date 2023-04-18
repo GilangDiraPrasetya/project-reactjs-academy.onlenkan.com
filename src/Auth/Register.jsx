@@ -54,7 +54,7 @@ function Register() {
                     Register
                   </button>
                   <p className="text-secondary text-center mt-2">
-                    Telah Memiliki Akun? <a href="">Log In!</a>
+                    Telah Memiliki Akun? <Link to="/login">Log In!</Link>
                   </p>
                 </form>
               </div>
